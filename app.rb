@@ -21,7 +21,7 @@ end
    @phrase = params[:phrase]
 
    3.times do |i|
-     "#{@phrase}"
+     "hello"
    end
  end
 end
