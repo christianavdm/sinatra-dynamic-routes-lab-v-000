@@ -7,7 +7,7 @@ get '/' do
 end
 
  get '/reversename/:name' do
-   @name = param[:name]
+   @name = params[:name]
    "Hello"
  end
 end
