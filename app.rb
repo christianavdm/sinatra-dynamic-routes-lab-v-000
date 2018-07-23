@@ -8,6 +8,6 @@ end
 
  get '/reversename/:name' do
    @name = param[:name]
-   @name
+   "Hello"
  end
 end
