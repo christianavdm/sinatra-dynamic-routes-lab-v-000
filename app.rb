@@ -15,4 +15,9 @@ end
    @square = params[:number].to_i * params[:number].to_i
    "#{@square}"
  end
+
+ get '/say/:number/:phrase' do
+   @number = params[:number].to_i
+   @phrase = params[:phrase]
+ end
 end
