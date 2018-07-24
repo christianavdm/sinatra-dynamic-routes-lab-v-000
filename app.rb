@@ -20,8 +20,8 @@ end
    @number = params[:number].to_i
    @phrase = params[:phrase]
 
-   <% 3.times do |i| %>
+    3.times do
     <% "hello" %>
-    end 
+    end
   end
 end
