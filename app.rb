@@ -32,7 +32,11 @@ end
     @product = @num1 * @num2
     @dividend = @num1 / @num2
     @difference = @num1 - @num2
+    <% if 1 == 1 %>
     "#{@difference}"
+    <% else %>
+    "hi"
+    <% end %>
   end
 
 end
