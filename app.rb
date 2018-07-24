@@ -35,6 +35,12 @@ end
 
     if @operation == "add"
       "#{@sum}"
+    elsif @operation == "subtract"
+      "#{@difference}"
+    elsif @operation == "multiply"
+      "#{@product}"
+    elsif @operation == "divide"
+      "#{@dividend}"
     else
       "oops"
     end
