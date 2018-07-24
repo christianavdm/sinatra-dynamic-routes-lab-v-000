@@ -21,7 +21,7 @@ end
    @phrase = params[:phrase]
 
     3.times do
-    <% "hello" %>
+      "hello"
     end
   end
 end
