@@ -32,7 +32,7 @@ end
     @product = @num1 * @num2
     @dividend = @num1 / @num2
     @difference = @num1 - @num2
-    "#{@dividend}"
+    "#{@difference}"
   end
 
 end
