@@ -17,7 +17,7 @@ end
  end
 
  get '/say/:number/:phrase' do
-   phrase * number.to_i
+   params[:phrase] * params[:number].to_i
   end
 
 
