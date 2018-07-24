@@ -20,6 +20,10 @@ end
    @number = params[:number].to_i
    @phrase = params[:phrase]
 
-
+   @number 
+   @phrase
   end
+
+  
+  
 end
