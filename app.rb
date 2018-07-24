@@ -30,9 +30,9 @@ end
     @num2 = params[:number2].to_i
     @sum = @num1 + @num2
     @product = @num1 * @num2
-    @dividend = @num1 / @num2 
+    @dividend = @num1 / @num2
     @difference = @num1 - @num2
-    "#{@sum}"
+    "#{@product}"
   end
 
 end
