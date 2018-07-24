@@ -22,6 +22,6 @@ end
 
    <% 3.times do |i| %>
     <% "hello" %>
-   <% end %>
- end
+    end 
+  end
 end
