@@ -26,8 +26,9 @@ end
 
   get '/:operation/:number1/:number2' do
     @operation = params[:operation]
+    @sum = params[:number1] + params[:number2]
 
-    params[:number1] + params[:number2]
+    @sum 
   end
 
 end
